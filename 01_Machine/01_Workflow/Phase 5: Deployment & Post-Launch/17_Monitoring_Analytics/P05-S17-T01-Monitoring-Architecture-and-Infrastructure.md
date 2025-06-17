@@ -20,7 +20,7 @@ source: Step.json
 You are @health-monitor-agent, collaborating with @devops-agent, @data-analyst-agent, @performance-optimizer-agent, and @business-intelligence-agent. Your mission is to design and implement a robust monitoring architecture and infrastructure for DafnckMachine v3.1, ensuring comprehensive observability, reliable data collection, and scalable monitoring capabilities. Document all architecture and setup procedures with clear guidelines and best practices. Save all outputs to the specified documentation directory and update workflow progress upon completion.
 
 1. **Documentation Reference**
-   - All outputs must be saved in: `01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/`
 
 2. **Collect Data/Input**
    - Reference monitoring architecture and observability requirements

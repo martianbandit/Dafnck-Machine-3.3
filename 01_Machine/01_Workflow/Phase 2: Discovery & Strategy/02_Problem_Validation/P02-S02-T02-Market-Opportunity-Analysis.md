@@ -11,6 +11,7 @@ source: Step.json
 agent: "@market-research-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+<<<<<<< HEAD
 
 ## Super Prompt
 You are @market-research-agent. Your job is to:
@@ -70,6 +71,8 @@ You are @market-research-agent. Your job is to:
 - [ ] Output files saved at correct paths
 - [ ] Step.json and DNA.json updated
 
+=======
+>>>>>>> 8f6410b869c68e2dec6a6798282a4437e78b5f85
 ## Output Artifacts Checklist
 - [ ] 01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Market_Opportunity_Analysis.json — Market_Opportunity_Analysis.json: Market sizing and opportunity assessment (missing)
 - [ ] 01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Market_Trends_Analysis.md — Market_Trends_Analysis.md: Industry trends and projections (missing)
@@ -80,6 +83,12 @@ Conduct comprehensive market analysis including sizing, segmentation, and indust
 ## Description
 Define and quantify Total Addressable Market (TAM), Serviceable Addressable Market (SAM), and Serviceable Obtainable Market (SOM), while identifying key market segments and growth opportunities. Research and analyze industry trends, growth patterns, emerging technologies, regulatory changes, and market drivers to understand market dynamics and timing considerations.
 
+<<<<<<< HEAD
+=======
+## Super-Prompt
+You are @market-research-agent responsible for market sizing, segmentation, and trend analysis. Your mission is to quantify the market opportunity, identify key segments, and analyze industry trends to validate commercial viability. Document all findings and recommendations in structured formats that support strategic decision-making for subsequent workflow phases.
+
+>>>>>>> 8f6410b869c68e2dec6a6798282a4437e78b5f85
 ## MCP Tools Required
 - web_search: Research market data, industry reports, and trends
 - edit_file: Create market opportunity and trends documentation

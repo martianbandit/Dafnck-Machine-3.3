@@ -4,16 +4,20 @@ step: S17
 task: T04
 task_id: P05-S17-T04
 title: Business Intelligence and KPI Tracking
+<<<<<<< HEAD
 agent:
   - "@analytics-setup-agent"
   - "@business-intelligence-agent"
   - "@health-monitor-agent"
   - "@data-analyst-agent"
   - "@devops-agent"
+=======
+>>>>>>> 8f6410b869c68e2dec6a6798282a4437e78b5f85
 previous_task: P05-S17-T03
 next_task: P05-S17-T05
 version: 3.1.0
 source: Step.json
+<<<<<<< HEAD
 ---
 
 # Super Prompt
@@ -51,6 +55,16 @@ You are @analytics-setup-agent, collaborating with @business-intelligence-agent,
    - [ ] BI platform and KPI tracking are implemented and operational
    - [ ] Documentation and configs are clear and complete
    - [ ] Task status updated in workflow tracking files
+=======
+agent: "@analytics-setup-agent"
+orchestrator: "@uber-orchestrator-agent"
+---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Business_Intelligence_Setup.md — Business_Intelligence_Setup.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/KPI_Tracking_Framework.json — KPI_Tracking_Framework.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Revenue_Analytics_Implementation.md — Revenue_Analytics_Implementation.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Business_Metrics_Framework.json — Business_Metrics_Framework.json (missing)
+>>>>>>> 8f6410b869c68e2dec6a6798282a4437e78b5f85
 
 # Mission Statement
 Set up a Business Intelligence (BI) platform and configure Key Performance Indicator (KPI) tracking for executive reporting and strategic decision-making in DafnckMachine v3.1.
@@ -58,6 +72,12 @@ Set up a Business Intelligence (BI) platform and configure Key Performance Indic
 # Description
 This task covers the deployment of the BI platform, creation of BI dashboards, definition of KPIs, configuration of business metrics tracking, and implementation of revenue analytics and business performance metrics.
 
+<<<<<<< HEAD
+=======
+# Super-Prompt
+You are @analytics-setup-agent. Your mission is to implement a BI platform and KPI tracking for DafnckMachine v3.1, ensuring comprehensive business metrics, executive reporting, and actionable revenue analytics. Document all BI setup and KPI tracking procedures with clear guidelines and best practices.
+
+>>>>>>> 8f6410b869c68e2dec6a6798282a4437e78b5f85
 # MCP Tools Required
 - edit_file
 - file_search
